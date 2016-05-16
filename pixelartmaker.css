@@ -1,0 +1,46 @@
+.pixel {
+  height: 10px;
+  width:10px;
+  border: 1px solid grey;
+  position: relative;
+  float:left;
+}
+
+footer {
+  position: fixed;
+  height: 20px;
+  bottom: 0;
+}
+
+.red {
+  background-color: red;
+  height: 40px;
+  width:40px;
+  border: 1px solid grey;
+  position: relative;
+  float:left;
+}
+
+.blue {
+  background-color: blue;
+  height: 40px;
+  width:40px;
+  border: 1px solid grey;
+  position: relative;
+  float:left;
+}
+
+.green {
+  background-color: green;
+  height: 40px;
+  width:40px;
+  border: 1px solid grey;
+  position: relative;
+  float:left;
+}
+
+//Create 10 or so small, white, square divs to start making a pixel canvas.
+Add an event listener to each so that when clicked on, that div's background turns red.
+Add a couple more square divs to make a palette. Begin with 2 background colors (red and blue), which allow the user to set the current "brush" color, instead of a pixel's background always turning red.
+Add the rest of the standard colors to your palette as well as an eraser. (Red, Orange, Yellow, Green, Blue, Purple, Black, Brown, White, etc.)
+Add more divs to expand the size of your pixel canvas.
