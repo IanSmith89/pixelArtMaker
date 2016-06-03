@@ -1,0 +1,57 @@
+Event delegation -
+
+how to add draw instead of click
+  1-disable click function event.listener
+  2-
+  pixel-
+
+  addEventListener('mouseenter' function(event){
+    event.target.style.background = brush;
+    event.target.style.borderColor = brush;
+  });
+
+  3-
+
+  go back to mousenter function
+    pixel.addEventListener('mouseenter' function(event){
+
+    if(!isPainting){
+      return
+    }
+    event.targer.style.backgroud=brush;
+    event.target.style.borderColor=brush;
+    })
+
+    canvas.addEventListener('mousedown', function(event{
+    isPainting = true;
+
+
+//add on click
+    if(event.target.className !== 'pixel'){
+    return;
+    }
+
+    })
+
+    canvas.addWventListener('mouseup', funciton(){
+      isPainting = false;
+
+    })
+
+Taste vs Gap
+  I feel like my Gap is enormous but I do still have good taste and eye and know what I'm going for. Determination and hard work will close the gap. I think being aware of this Gap is empowering and lessens the anxiety of just thinking you suck. Just realize it takes a lot of time. 
+
+Material Design
+  Visual guidelines - coded to specifications
+    layout and nice look in one go, more unified
+  Sticks to real world principles so feeling is more        familiar
+  3d world all objects have x,y,z dimensions
+  1dp
+
+
+
+Materialize framework
+
+Materialize vs other Front-End Frameworks
+
+Use Materialize to implement material design
